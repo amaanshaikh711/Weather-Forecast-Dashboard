@@ -9,11 +9,7 @@ It fetches live weather data from the OpenWeatherMap API and presents it in an e
 
 📊 Interactive Charts: Visualizes temperature trends and rainfall probability with smooth Plotly graphs.
 
-🧊 Dynamic Blur Background: Automatically adjusts colors and gradients based on current weather and time (day/night/rain/cloud).
-
 💨 Weather Metrics Cards: Displays temperature, humidity, wind speed, pressure, and visibility in clean, uniform cards.
-
-🧱 Fully Responsive Layout: Adapts perfectly on desktop and mobile screens — no empty spaces or overflow.
 
 🎚️ Rain Chart Toggle: Option to show or hide the 7-day rain probability graph to keep the interface clean.
 
