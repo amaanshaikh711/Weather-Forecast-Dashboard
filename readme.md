@@ -61,9 +61,9 @@ weather-dashboard/
 
 ---
 
-## ⚙️ Setup Instructions
+# ⚙️ Setup Instructions
 
-### **1️ Clone the repository**
+### **1 Clone the repository**
 ```bash
 git clone https://github.com/<your-username>/weather-dashboard.git
 cd weather-dashboard
