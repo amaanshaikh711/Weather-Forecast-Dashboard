@@ -1,5 +1,7 @@
-# API INTEGRATION AND DATA VISUALIZATION
-# 🌤️ India Weather Dashboard (Task 1 – CODTECH Internship)
+# 🌤️ India Weather Dashboard  
+**Task 1 – CODTECH Internship | API Integration & Data Visualization**
+
+---
 
 ### **COMPANY:** CODTECH IT SOLUTIONS  
 ### **NAME:** AMAN SHAIKH  
@@ -10,38 +12,32 @@
 
 ---
 
-A real-time **Weather Visualization Dashboard** built using **Python, Dash, and Plotly**.  
-This project fetches live data from the **OpenWeatherMap API** and displays it using **interactive charts**, **dynamic UI**, and **glassmorphism styling**.
+### 🚀 Live Preview
 
-This dashboard fulfills **Task 1 – API Integration & Data Visualization** of my CODTECH Internship.
+<p align="center">
+  <img src="./demo.png" alt="Weather Dashboard Screenshot" style="border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.15); max-width:100%;">
+</p>
 
 ---
 
-## 🚀 Features
+A visually engaging, **real-time Weather Visualization Dashboard** built with **Python, Dash, and Plotly**.
 
-### 🔹 **Real-Time Weather Data**
-Fetches up-to-date weather data for major Indian cities using the OpenWeatherMap API.
+- Fetches live weather data for Indian cities from the **OpenWeatherMap API**
+- Displays **interactive charts**, **dynamic UI**, and **modern glassmorphism styling**
+- Fulfills **Task 1 – API Integration & Data Visualization** (CODTECH Internship)
 
-### 🔹 **Interactive Plotly Charts**
-- 24-hour temperature line chart  
-- Hover tooltips  
-- Smooth animations  
+---
 
-### 🔹 **7-Day Weather Forecast**
-Dynamic forecast cards showing:
-- Temperature  
-- Weather type  
-- Icons  
-- Descriptions  
+## ✨ Features
 
-### 🔹 **Weather Metric Cards**
-Beautiful glass-style metric cards for:
-- Humidity  
-- Wind Speed  
-- Pressure  
-- Visibility
-- 
-## 🧠 Tech Stack
+- **Real-Time Weather Data:** Up-to-date weather for major Indian cities
+- **Interactive Plotly Charts:** 24-hour temperature line chart with hover tooltips and smooth animations
+- **7-Day Weather Forecast:** Dynamic forecast cards with temperature, weather icons & descriptions
+- **Weather Metric Cards:** Glass-style UI for humidity, wind speed, pressure, and visibility
+
+---
+
+## 🛠️ Tech Stack
 
 - Python  
 - Dash Framework  
@@ -54,29 +50,52 @@ Beautiful glass-style metric cards for:
 ---
 
 ## 📁 Project Structure
+
+```
 weather-dashboard/
 │── weather_dashboard.py
 │── requirements.txt
 │── README.md
+```
 
 ---
 
 # ⚙️ Setup Instructions
 
-### **1 Clone the repository**
+Follow these steps to set up and run the Weather Dashboard locally:
+
+### 1. **Clone the repository**
 ```bash
-git clone https://github.com/<your-username>/weather-dashboard.git
-cd weather-dashboard
+git clone https://github.com/amaanshaikh711/Weather-Forecast-Dashboard.git
+cd Weather-Forecast-Dashboard
+```
 
-### **2 Install dependencies**
-'''bash
+### 2. **Install dependencies**
+It’s recommended to use a virtual environment:
+```bash
+pip install -r requirements.txt
+```
+Or, install packages directly:
+```bash
 pip install dash dash-bootstrap-components plotly requests pandas pytz
+```
 
-### **3 Run the application**
+### 3. **Obtain OpenWeatherMap API Key**
+- Register at [OpenWeatherMap](https://openweathermap.org/api) and get a free API key.
+- Add your API key as an environment variable or configure it inside `weather_dashboard.py` as instructed in the code.
+
+### 4. **Run the application**
 ```bash
 python weather_dashboard.py
+```
 
-### **4 Open in browser**
-http://127.0.0.1:8050/
+### 5. **Open in browser**
+Navigate to: [http://127.0.0.1:8050/](http://127.0.0.1:8050/)
 
+---
 
+Enjoy exploring real-time weather data with interactive visualizations and elegant design!  
+Feel free to contribute or suggest improvements.
+
+---
+```
