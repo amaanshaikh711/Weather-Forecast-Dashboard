@@ -1,80 +1,82 @@
-🌤️ India Weather Dashboard
+# API INTEGRATION AND DATA VISUALIZATION
+# 🌤️ India Weather Dashboard (Task 1 – CODTECH Internship)
 
-A modern and fully responsive real-time weather visualization dashboard built with Python, Dash, and Plotly.
-It fetches live weather data from the OpenWeatherMap API and presents it in an elegant one-page layout — complete with dynamic charts, blur effects, and adaptive backgrounds that change with the weather and time of day.
+### **COMPANY:** CODTECH IT SOLUTIONS  
+### **NAME:** AMAN SHAIKH  
+### **INTERN ID:** CT06DR1460  
+### **DOMAIN:** Python Programming  
+### **DURATION:** 6 Weeks  
+### **MENTOR:** Neela Santhosh Kumar  
 
-🚀 Features
+---
 
-🌍 Real-Time Weather Data: Fetches live data for major Indian cities using the OpenWeatherMap API.
+A real-time **Weather Visualization Dashboard** built using **Python, Dash, and Plotly**.  
+This project fetches live data from the **OpenWeatherMap API** and displays it using **interactive charts**, **dynamic UI**, and **glassmorphism styling**.
 
-📊 Interactive Charts: Visualizes temperature trends and rainfall probability with smooth Plotly graphs.
+This dashboard fulfills **Task 1 – API Integration & Data Visualization** of my CODTECH Internship.
 
-💨 Weather Metrics Cards: Displays temperature, humidity, wind speed, pressure, and visibility in clean, uniform cards.
+---
 
-🎚️ Rain Chart Toggle: Option to show or hide the 7-day rain probability graph to keep the interface clean.
+## 🚀 Features
 
-🧠 Tech Stack
+### 🔹 **Real-Time Weather Data**
+Fetches up-to-date weather data for major Indian cities using the OpenWeatherMap API.
 
-Python
+### 🔹 **Interactive Plotly Charts**
+- 24-hour temperature line chart  
+- Hover tooltips  
+- Smooth animations  
 
-Dash & Plotly
+### 🔹 **7-Day Weather Forecast**
+Dynamic forecast cards showing:
+- Temperature  
+- Weather type  
+- Icons  
+- Descriptions  
 
-Dash Bootstrap Components
+### 🔹 **Weather Metric Cards**
+Beautiful glass-style metric cards for:
+- Humidity  
+- Wind Speed  
+- Pressure  
+- Visibility
+- 
+## 🧠 Tech Stack
 
-Pandas
+- Python  
+- Dash Framework  
+- Plotly  
+- Dash Bootstrap Components  
+- Pandas  
+- OpenWeatherMap API  
+- Pytz  
 
-OpenWeatherMap API
+---
 
-⚙️ Setup Instructions
+## 📁 Project Structure
+weather-dashboard/
+│── weather_dashboard.py
+│── requirements.txt
+│── README.md
 
-Clone the repository:
+---
 
-git clone https://github.com/<your-username>/india-weather-dashboard.git
-cd india-weather-dashboard
+## ⚙️ Setup Instructions
 
+### **1️ Clone the repository**
+```bash
+git clone https://github.com/<your-username>/weather-dashboard.git
+cd weather-dashboard
 
-Install dependencies:
-
+### **2 Install dependencies**
+'''bash
 pip install dash dash-bootstrap-components plotly requests pandas pytz
 
-
-Get your free API key from OpenWeatherMap
- and replace it inside the script:
-
-API_KEY = "your_api_key_here"
-
-
-Run the app:
-
+### **3 Run the application**
+```bash
 python weather_dashboard.py
 
-
-Open your browser at:
-
+### **4 Open in browser**
 http://127.0.0.1:8050/
 
-📸 Preview
 
-A visually clean, real-time weather dashboard showing:
-
-Live temperature chart for 24 hours
-
-Dynamic background changing with weather
-
-Neatly aligned weather metric cards
-
-(You can include screenshots or a GIF demo here)
-
-💡 Future Improvements
-
-Add search support for any global city
-
-Include air quality data (AQI)
-
-Create a mobile app version using Streamlit or Flutter
-
-🧑‍💻 Developer
-
-Amaan Shaikh
-Computer Science Student | AI & ML Enthusiast
-📍 University of Mumbai
